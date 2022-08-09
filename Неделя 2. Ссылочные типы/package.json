@@ -1,0 +1,26 @@
+{
+  "name": "te-1",
+  "version": "1.0.0",
+  "description": "1. Склонируйте данный репозиторий 2. Установите eslint и задайте следующие правила ```json {   \"rules\": {     \"require-jsdoc\": \"off\",     \"indent\": [       \"error\",       2,       {         \"SwitchCase\":  1       }     ],     \"no-unused-vars\": \"warn\"   } } ```",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "1-task-tests": "xv 1-task/tests/calculator.test.js",
+    "2-task-tests": "xv 2-task/tests/final-class.test.js",
+    "all-tests": "xv ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErmolaevID/te-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErmolaevID/te-1/issues"
+  },
+  "homepage": "https://github.com/ErmolaevID/te-1#readme",
+  "devDependencies": {
+    "xv": "^1.1.1"
+  }
+}
